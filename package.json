@@ -1,6 +1,6 @@
 {
   "name": "batchdir",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Batch create directories or delete them.",
   "homepage": [
     ""

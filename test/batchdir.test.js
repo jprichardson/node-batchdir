@@ -56,6 +56,18 @@ test('create() - with string args', function(done) {
 
 })
 
+test('create() - with single string arg', function(done) {
+  var dir = path.join(TEST_DIR, 'x1');
+
+  F (fs.existsSync(dir))
+
+  batchdir(dir).create (function(err) {
+    F (err)
+    T (fs.existsSync(dir))
+    done()
+  })
+})
+
 
 test('remove()', function(done) {
   var dirs = [
