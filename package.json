@@ -1,0 +1,31 @@
+{
+  "name": "batchdir",
+  "version": "0.0.1",
+  "description": "Batch create directories or delete them.",
+  "homepage": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["mkdirp", "directory", "directories", "rmrf", "make", "remove", "batch", "dir"],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "fs-extra": "~0.1.3",
+    "batchflow": "0.0.x"
+  },
+  "main": "./lib/batchdir.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "testutil": "~0.2.2"
+  }
+}
