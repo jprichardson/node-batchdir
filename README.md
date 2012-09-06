@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/jprichardson/node-batchdir.png)](http://travis-ci.org/jprichardson/node-batchdir)
+
 Node.js - batchdir
 ================
 
@@ -114,6 +116,8 @@ Deletes directory(ies) if they do exist. Will delete all of the contents like `r
 ```javascript
 batchdirs(dirs).remove(function(err) { });
 ```
+
+
 
 Author
 ------
